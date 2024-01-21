@@ -177,6 +177,7 @@ nav .close-icon{
 .depoimentos__cards{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .depoimentos__cards-item{
@@ -242,6 +243,7 @@ nav .close-icon{
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 /* Footer */
@@ -489,4 +491,39 @@ nav .close-icon{
 .contatos__info-rigth button{
   border: none;
 }
+
+/* Página Home ---- Responsivo */
+/* home__faca-mais */
+/* faca-mais__container */
+/* faca-mais__text */
+/* faca-mais__img */
+.home__banner .home__banner-text{
+  padding: 0;
+  margin: 80px;
+}
+.home__banner .home__banner-text h1{
+  font-size: 80px;
+}
+.home__banner .home__banner-text p{
+  font-size: 14px;
+}
+.home__faca-mais .faca-mais__text{
+  margin-top: 10px;
+  padding: 0 20px;
+  order: 1;
+}
+.faca-mais__container{
+  flex-direction: column;
+}
+.home__faca-mais .faca-mais__text h3{
+  font-size: 48px;
+}
+.home__faca-mais .faca-mais__text,
+.home__faca-mais .faca-mais__img{
+  width: 100%;
+}
+.depoimentos__cards-item{
+  width: 100%;
+}
+
 
