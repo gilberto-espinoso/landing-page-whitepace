@@ -266,7 +266,7 @@ nav .close-icon{
   color: #fff;
 }
 
-/* Responsivo ----------- HOME */
+/* Responsivo ----------- HOME - BAR*/
 
 @media(max-width: 800px){
   
@@ -301,7 +301,7 @@ nav .close-icon{
     right: 28px;
   }
 }
-/* end Página Home */
+
 
 /* >>>>>>>>>>>>> Página Sobre */
 .sobre__container{
@@ -493,37 +493,89 @@ nav .close-icon{
 }
 
 /* Página Home ---- Responsivo */
-/* home__faca-mais */
-/* faca-mais__container */
-/* faca-mais__text */
-/* faca-mais__img */
-.home__banner .home__banner-text{
-  padding: 0;
-  margin: 80px;
-}
-.home__banner .home__banner-text h1{
-  font-size: 80px;
-}
-.home__banner .home__banner-text p{
-  font-size: 14px;
-}
-.home__faca-mais .faca-mais__text{
-  margin-top: 10px;
-  padding: 0 20px;
-  order: 1;
-}
-.faca-mais__container{
-  flex-direction: column;
-}
-.home__faca-mais .faca-mais__text h3{
-  font-size: 48px;
-}
-.home__faca-mais .faca-mais__text,
-.home__faca-mais .faca-mais__img{
-  width: 100%;
-}
-.depoimentos__cards-item{
-  width: 100%;
+@media (max-width:400px){
+  .home__banner .home__banner-text{
+    padding: 0;
+    margin: 80px;
+  }
+  .home__banner .home__banner-text h1{
+    font-size: 80px;
+  }
+  .home__banner .home__banner-text p{
+    font-size: 14px;
+  }
+  .home__faca-mais .faca-mais__text{
+    margin-top: 10px;
+    padding: 0 20px;
+    order: 1;
+  }
+  .faca-mais__container{
+    flex-direction: column;
+  }
+  .home__faca-mais .faca-mais__text h3{
+    font-size: 48px;
+  }
+  .home__faca-mais .faca-mais__text,
+  .home__faca-mais .faca-mais__img{
+    width: 100%;
+  }
+  .depoimentos__cards-item{
+    width: 100%;
+  }
 }
 
 
+/* Página Sobre ---- Responsivo */
+@media (max-width:400px){
+  .sobre__container{
+    flex-direction: column-reverse;
+  }
+  .sobre-img,
+  .sobre-text{
+    width: 100%;
+  }
+  .sobre-text{
+    margin-top: 40px;
+  }
+}
+
+
+/* Página Contato ---- Responsivo */
+
+@media (max-width:400px){
+  .contatos__container {
+    width: 100%;
+  }
+  .contatos__info{
+    flex-direction: column-reverse;
+  }
+  .contatos__info-rigth,
+  .contatos__info-left{
+    width: 100%;
+  }
+  .contatos__info-rigth{
+    margin-bottom: 80px;
+  }
+  .contatos__mapa{
+    height: 300px;
+  }
+}
+@media (max-width:1400px){
+  .contatos__container {
+    width: 100%;
+  }
+
+  .contatos__mapa{
+    height: 300px;
+  }
+}
+
+/* banner */
+@media (max-width:400px){
+  .home__banner .home__banner-text h1{
+    font-size: 50px;
+  }
+  .home__faca-mais .faca-mais__text h3{
+    font-size: 40px;
+  }
+}
