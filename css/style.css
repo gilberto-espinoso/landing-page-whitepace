@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  font-family: 'Inter', sans-serif;;
+}
+
+body{
+  background-color: #f1f6fc31;
+}
+
+section, 
+footer{
+  padding: 54px 0px;
+}
+
+h3{
+  font-size: 50px;
+}
+
+p{
+  color: #0000009c;
+}
+
+/* página Home */
+header{
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.home__container{
+ max-width: 1400px;
+ margin: 0 auto;
+ padding: 0 5%; 
+}
+
+.home__banner-text-btn{
+  background-color:#4f9cf9;
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-block;
+  transition: 0.1s;
+}
+
+.animate-btn{
+  animation: animate-outline 1s ease-out infinite;
+}
+
+.home__banner-text-btn:hover{
+  background-color: #3580db;
+}
+
+@keyframes animate-outline {
+  from{
+    outline: 0px solid #4f9bf98a;
+  }
+  to{
+    outline: 15px solid #4f9bf900;
+  }
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.home__ul{
+  display: flex;
+  align-items: center;
+}
+
+.home__ul > a{
+  color:#fff;
+  margin: 0 25px;
+  text-transform: uppercase;
+  font-size: 14px;
+  display: block;
+}
+
+.home__ul > a:not(.home__banner-text-btn)::after{
+  content: "";
+  background-color: #4f9cf9;
+  height: 3px;
+  width: 0%;
+  display: block;
+  margin: 0 auto;
+  transition: 0.3s;
+}
+
+.home__ul > a:hover::after{
+  width: 100%;
+}
+
+.home__banner{
+  display: flex;
+  justify-content: center;
+}
+
+.home__banner-text{
+  margin: 150px;
+  text-align: center;
+  padding: 0 90px;
+}
+
+.home__banner-text > h1{
+  font-size: 96px;
+  color: #fff;
+}
+
+.home__banner-text > p{
+  font-size: 20px;
+  color: #ffffffb7;
+  font-weight: lighter;
+  margin: 18px 0px;
+}
+
+/* Home__Faca-mais */
+
+.faca-mais__container{
+  display: flex;
+  align-items: center;
+}
+
+.faca-mais__container .faca-mais__text{
+  width: 50%;
+  padding: 0 40px;
+}
+.faca-mais__container .faca-mais__text > h3{
+  font-size: 56px;
+}
+
+.faca-mais__container .faca-mais__text > p{
+  margin: 5px 0 10px 0;
+}
+
+.faca-mais__container .faca-mais__img{
+  width: 50%;
+}
+
+.faca-mais__container .faca-mais__img img{
+  width: 100%;
+}
