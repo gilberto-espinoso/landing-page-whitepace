@@ -1,0 +1,55 @@
+.sessao1{
+  background-color: #f6f6f6;
+}
+.sessao2{
+  background-color: #f6f6f6; 
+}
+.sessao3{
+  background-color: #f6f6f6;
+}
+
+/* Home__Faca-mais */
+.faca-mais__container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.faca-mais__container .faca-mais__text{
+  width: 50%;
+  padding: 0 40px;
+}
+.faca-mais__container .faca-mais__text h3{
+  font-size: 56px;
+}
+
+.faca-mais__container .faca-mais__text p{
+  margin: 5px 0 40px 0;
+}
+
+.faca-mais__container .faca-mais__img{
+  width: max-content;
+}
+
+.faca-mais__container .faca-mais__img img{
+  width: 100%;
+}
+
+/* ------ RESPONSIVO ------ */
+@media (max-width:600px){
+  
+  .faca-mais__container{
+    flex-direction: column;
+  }
+  .faca-mais__container .faca-mais__text{
+    margin-top: 10px;
+    padding: 0 20px;
+    order: 1;
+  }
+  .faca-mais__container .faca-mais__text h3{
+    font-size: 48px;
+  }
+  .faca-mais__container .faca-mais__text,
+  .faca-mais__container .faca-mais__img{
+    width: 100%;
+  }
+}
