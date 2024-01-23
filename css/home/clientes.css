@@ -1,0 +1,15 @@
+.home__clientes{
+  background-color: #fff;
+}
+
+.home__clientes h3,
+.home__clientes p{
+  text-align: center;
+}
+
+.clientes__container div{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

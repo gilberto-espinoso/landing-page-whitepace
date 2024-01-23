@@ -1,0 +1,65 @@
+.depoimentos h3{
+  text-align: center;
+}
+.depoimentos p{
+  margin-bottom: 20px;
+  text-align: center;
+}
+.depoimentos__cards{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.depoimentos__cards-item{
+  background-color: #d3e6fd;
+  margin: 15px;
+  border-radius: 14px;
+  text-align: center;
+  width: 350px;
+  transition: 0.3s;
+}
+.depoimentos__cards-item img{
+  border-radius: 100%;
+  width: 80px;
+  display: block;
+  margin: 20px auto;
+}
+.nome__user{
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+.depoimento__user{
+  font-size: 15px;
+  padding: 0 15px;
+  transition: 0.3s;
+}
+.depoimento__stars{
+  margin: 15px 0;
+  border-top: 2px solid #71767a23;
+  transition: 0.3s;
+}
+.depoimento__stars i{
+  color: #4f9cf9;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+/* efeito hover nos cards */
+.depoimentos__cards-item:hover{
+  background-color: #4f9cf9;
+  margin-top: -5px;
+  margin-bottom: 5px;
+}
+.depoimentos__cards-item:hover .nome__user,
+.depoimentos__cards-item:hover .depoimento__user,
+.depoimentos__cards-item:hover .depoimento__stars i{
+  color: #fff;
+}
+/* RESPONSIVO */
+@media (max-width:600px){
+  .depoimentos__cards-item{
+    width: 100%;
+  }  
+}
