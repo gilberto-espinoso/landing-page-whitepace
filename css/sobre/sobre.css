@@ -1,0 +1,39 @@
+.sobre__container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.sobre-text{
+  width: 50%;
+  padding-right: 40px;
+}
+
+.sobre-text p{
+  margin: 18px 0;
+  color: #000000a6;
+}
+
+.sobre-img{
+  width: 50%;
+}
+
+.sobre-img img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Página Sobre ---- Responsivo */
+@media (max-width:600px){
+  .sobre__container{
+    flex-direction: column-reverse;
+  }
+  .sobre-img,
+  .sobre-text{
+    width: 100%;
+  }
+  .sobre-text{
+    margin-top: 40px;
+  }
+}
