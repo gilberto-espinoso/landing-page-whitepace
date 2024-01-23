@@ -1,56 +1,12 @@
-
-/* Home__Faca-mais */
-.home__faca-mais{
-  background-color: #f6f6f6;
-}
-
-.faca-mais__container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
-}
-
-.faca-mais__container .faca-mais__text{
-  width: 50%;
-  padding: 0 40px;
-}
-.faca-mais__container .faca-mais__text h3{
-  font-size: 56px;
-}
-
-.faca-mais__container .faca-mais__text p{
-  margin: 5px 0 40px 0;
-}
-
-.faca-mais__container .faca-mais__img{
-  width: max-content;
-}
-
-.faca-mais__container .faca-mais__img img{
-  width: 100%;
-}
-
-/* Depoimentos */
-.depoimentos {
-  background-color: #fff;
-}
-
-
-
-
-/* >>>>>>>>>>>>> Página Contato */
 .contatos__container{
   margin: 0 auto;
   width: 1400px;
 }
-
 .contatos__info{
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
 }
-
 .contatos__info-left{
   width: 50%;
   padding: 30px;
@@ -59,33 +15,27 @@
   margin-right: 50px;
   height: fit-content;
 }
-
 .contatos__info-left div{
   display: flex;
   align-items: center;
   margin-bottom: 10px;
 }
-
 .contatos__info-left div i{
   font-size: 24px;
   margin-right: 20px;
   color: #fff;
 }
-
 .contatos__info-left p{
   font-size: 17px;
   color: #fff;
 }
-
 .contatos__info-rigth{
   width: 50%;
 }
-
 .contatos__info-rigth input:focus,
 .contatos__info-rigth textarea:focus{
   border-color:#4f9cf9;
 }
-
 .contatos__info-rigth input{
   display: block;
   width: 100%;
@@ -98,7 +48,6 @@
   color: #212121;
   font-weight: lighter;
 }
-
 .contatos__info-rigth textarea{
   border: 1px solid #f1f1f1;
   color: #212121;
@@ -109,19 +58,11 @@
   transition: 0.3s;
   resize: none;
 }
-
 .contatos__info-rigth button{
   border: none;
 }
 
-
-
-
-
-
-
 /* Página Contato ---- Responsivo */
-
 @media (max-width:600px){
   .contatos__container {
     width: 100%;
@@ -136,15 +77,4 @@
   .contatos__info-rigth{
     margin-bottom: 80px;
   }
-  .contatos__mapa{
-    height: 300px;
-  }
 }
-
-/* DEPOIMENTOS ---- Responsivo */
-@media (max-width:600px){
-  .depoimentos__cards-item{
-    width: 100%;
-  }  
-}
-

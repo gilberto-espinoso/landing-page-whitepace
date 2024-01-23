@@ -8,3 +8,6 @@
 
 /* Servico */
 @import "./servicos/servicos.css";
+
+/* Contato */
+@import "./contato/contato.css";
